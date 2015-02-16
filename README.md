@@ -35,7 +35,7 @@ Next the activity names are added to the data set, e.g. '1' in the data set repr
 To tidy the final data set, dplyr is used. The table is grouped by Subject and Activity and then summarise_each(funs(mean) is applied to the 79 Feature columns to determine the mean of each feature for a particular Subject/Activity combination. The output data is a text file named "SamsungData_tidy.txt" which is exported into the script user's working directory.
 
 ##Code Book
-The Code Book contains a description of the data source and an explanation of the features included in the data set. 
+The [Code Book](https://github.com/jzeph/cleaning-data/blob/master/CodeBook.md) contains a description of the data source and an explanation of the features included in the data set. 
 
 
 
